@@ -124,3 +124,5 @@ class Vector:
         memv = memoryview(octets[1:]).cast(typecode)
         return cls(memv)  # <7>
 # END VECTOR_V1
+
+test
